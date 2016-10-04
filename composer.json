@@ -1,0 +1,13 @@
+{
+    "name": "previousnext/drush_cmi_tools",
+    "description": "Provide more config import and export features for Drush.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Lee Rowlands"
+        }
+    ],
+    "require": {
+        "drush-ops/drush": "~8"
+    }
+}
