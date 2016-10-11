@@ -8,12 +8,4 @@
             "name": "Lee Rowlands"
         }
     ],
-    "require": {
-        "composer/installers": "^1.0",
-    },
-    "extra": {
-        "installer-paths": {
-            "drush/contrib/{$name}": ["type:drupal-drush"]
-        }
-    }
 }
