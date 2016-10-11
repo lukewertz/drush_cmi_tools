@@ -1,6 +1,7 @@
 {
     "name": "previousnext/drush_cmi_tools",
     "description": "Provide more config import and export features for Drush.",
+    "type": "drupal-drush",
     "license": "GPL-3.0",
     "authors": [
         {
@@ -8,6 +9,11 @@
         }
     ],
     "require": {
-        "drush-ops/drush": "~8"
+        "composer/installers": "^1.0",
+    },
+    "extra": {
+        "installer-paths": {
+            "drush/contrib/{$name}": ["type:drupal-drush"]
+        }
     }
 }
